@@ -1,8 +1,8 @@
 class Mahasiswa:
-     nama="Nurul Niza"
+     nama="Mihra Wardana"
 
-Nurul_Niza=Mahasiswa()#objek dari kelas mahasiswa
-print(Nurul_Niza.nama)
+Mihra_Wardana=Mahasiswa()#objek dari kelas mahasiswa
+print(Mihra_Wardana.nama)
 
 print(50*'/') #constraster di panggil setiap objek di buat
 
@@ -32,5 +32,5 @@ print(50*'/')
 #inheritance
 #child class
 class MahasiswaPenerimaBeasiswa:
-     mahasiswa3 = Mahasiswa(" Yuyun", 19)
+     mahasiswa3 = Mahasiswa("Wardah", 19)
      print(mahasiswa3.nama)
